@@ -1,0 +1,142 @@
+body
+{
+    font-family: Helvetica;
+    font-size: 16px;
+    background-color: grey;
+}
+
+h1 {
+    margin-left: 30px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.header{
+    width: 670px;
+    height: 30px;
+    background-color: #F6856E;
+    border-radius: 5px 5px 0 0;
+}
+
+#friends{
+    width: 670px;
+    background-color: #fff;
+    height: 550px;
+}
+
+#friends_left{
+    float: left;
+}
+#friends_right{
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#friends_left,
+#friends_right {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+
+}
+
+#friends__list_left,
+#friends__list_right{
+    min-height: 80%;
+    height: 80%;
+    overflow: auto;
+
+}
+
+.friend{
+    padding: 10px 10px;
+}
+
+.friend__container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#addFriendButton{
+    display: inline-block;
+    background-color: inherit;
+    border: none;
+    right: 40px;
+    color: #C9C9C9;
+    width: 40px;
+    height: 40px;
+
+}
+
+i .fa .fa-plus {
+text-align: right;
+}
+
+.friend img
+{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+.friend .name{
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.friendsSearch{
+background-color: #f1f1f1;
+height: 60px;
+line-height: 60px;
+}
+
+input[type="text"]{
+width: 84%;
+border-radius: 30px;
+margin-left: 30px;
+height: 25px;
+color: #c7c7c7;
+padding-left: 10px;
+
+}
+
+.friends_title p{
+margin-left: 20px;
+}
+
+
+
+.footer {
+width: 670px;
+background-color: #F1F1F1;
+height: 50px;
+border-radius: 0 0 5px 5px;
+display: inline-block;
+text-align: right;
+
+}
+
+.addButton{
+background-color: #F6856E;
+width: 130px;
+border-radius: 10px;
+height: 35px;
+
+}
+
+.addButton--load{
+    background-color: #F6856E;
+    width: 130px;
+    border-radius: 10px;
+    height: 35px;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{htmlWebpackPlugin.options.title}}</title>
+    <link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1 id="headerInfo"></h1>
+    </div>
+    <div id="friends" class="clearfix">
+        <div id="friends_left">
+            <div class="friendsSearch">
+                <input type="text" placeholder="Начните вводить имя друга" class="friends__input friends__input_left ">
+            </div>
+           <div class="friends_title">
+               <p>Ваши друзья</p>
+           </div>
+            <div id="friends__list_left">
+
+            </div>
+        </div>
+        <div id="friends_right">
+            <div class="friendsSearch">
+                <input type="text" placeholder="Начните вводить имя друга" class="friends__input friends__input_right">
+            </div>
+            <div class="friends_title">
+                <p>Друзья в списке</p>
+            </div>
+            <div id="friends__list_right">
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <button id="saveButton" class="addButton">Сохранить</button>
+
+    </footer>
+</div>
+</body>
+</html>
